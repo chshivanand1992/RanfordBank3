@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.pagelibrary.com.ranford_bnk.TestExecution">
+        <methods>
+          <include name="save_report"/>
+          <include name="generate_report"/>
+          <include name="Send_method_To_report"/>
+          <include name="verify_login"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford_bnk.TestExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
